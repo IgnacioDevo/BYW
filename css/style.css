@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, "serif";
+  background: #ffffff;
+  list-style: none; }
+
+#header {
+  margin: 30px; }
+
+.header__ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 65px;
+  border: 1px #111111 solid;
+  margin: 45px;
+  box-shadow: 0px 0px 5px gray; }
+
+.header__ul li {
+  display: inline-block;
+  margin: 0 15px;
+  line-height: 70px; }
+
+.header__ul li:first-child {
+  margin-right: auto;
+  margin-left: 1rem; }
+
+.header__ul a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px; }
+
+.header__ul a:hover {
+  color: #605a53; }
+
+#main div {
+  display: block;
+  position: relative;
+  background-color: #ffffff;
+  border: 1px solid #605a53;
+  height: 700px;
+  margin: 75px;
+  margin-top: 25px; }
+
+img {
+  width: 100%;
+  height: 100%; }
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #eee; }
+
+.footer__ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.footer__ul a {
+  cursor: pointer;
+  color: #333; }
+
+.footer__ul li i {
+  font-size: 35px;
+  padding: 10px; }
+
+#instagram a:hover {
+  color: #E1306C; }
+
+#github a:hover {
+  color: #211F1F; }
+
+#twitter a:hover {
+  color: #1D9BF0; }
+
+#linkedin a:hover {
+  color: #0A66C2; }
