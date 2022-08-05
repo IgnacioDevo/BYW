@@ -1,0 +1,38 @@
+/* FOOTER CSS */
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #eee;
+}
+
+.footer__ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    & a{
+        cursor: pointer;
+        color: #333;
+    }
+    & li i {
+        font-size: 35px;
+        padding: 10px; 
+    }
+}
+
+
+#instagram  a:hover{
+    color: #E1306C;
+}
+
+#github a:hover{
+    color: #211F1F;
+}
+
+#twitter a:hover{
+    color: #1D9BF0;
+}
+
+#linkedin a:hover{
+    color: #0A66C2;
+}
